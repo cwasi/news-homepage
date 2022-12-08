@@ -1,0 +1,24 @@
+{
+  "name": "new-homepage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-sass src/sass/main.scss src/css/style.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwasi/news-homepage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cwasi/news-homepage/issues"
+  },
+  "homepage": "https://github.com/cwasi/news-homepage#readme"
+}
