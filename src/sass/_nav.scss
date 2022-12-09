@@ -1,0 +1,21 @@
+.nav {
+  &__item {
+    list-style-type: none;
+    display: flex;
+  }
+
+  &__list {
+    &:not(:last-child) {
+      margin-right: 3rem;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $color-dark-grayish-blue;
+    &:hover,
+    &:active {
+      color: $color-soft-orange;
+    }
+  }
+}
