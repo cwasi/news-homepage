@@ -1,0 +1,19 @@
+.btn {
+  width: max-content;
+  padding: 1.2rem 2.2rem;
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  outline: none;
+  border: none;
+
+  color: $color-off-white;
+  background-color: $color-soft-red;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+  &:hover {
+    background-color: $color-very-dark-blue;
+  }
+}

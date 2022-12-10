@@ -1,0 +1,48 @@
+.heading-1 {
+  font-size: 5.5rem;
+  font-weight: 800;
+  line-height: 5.5rem;
+}
+
+.heading-2 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 4rem;
+
+  &--color-soft-orange {
+    color: $color-soft-orange;
+  }
+}
+
+.heading-3 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  line-height: 2rem;
+}
+
+.heading-4 {
+  font-size: 1.6rem;
+  font-weight: 800;
+  line-height: 2rem;
+}
+
+.number {
+  font-size: 2.3em;
+  font-weight: 700;
+  line-height: 2.9rem;
+  color: $color-grayish-blue;
+}
+
+.paragraph {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  line-height: 2rem;
+
+  &-b {
+    margin-top: 0;
+  }
+
+  &__color-dark-grayish-blue {
+    color: $color-dark-grayish-blue;
+  }
+}

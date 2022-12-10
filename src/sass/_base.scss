@@ -25,9 +25,10 @@ body {
 }
 
 main {
+  margin: 5rem auto 0 auto;
   min-height: 100%;
 
   display: grid;
-  align-content: center;
+  align-content: start;
   justify-content: center;
 }
