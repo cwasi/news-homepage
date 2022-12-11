@@ -23,7 +23,8 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
-  line-height: 2rem; }
+  line-height: 2rem;
+  position: relative; }
 
 main {
   margin: 5rem auto 0 auto;
@@ -31,6 +32,28 @@ main {
   display: grid;
   align-content: start;
   justify-content: center; }
+  @media only screen and (max-width: 500px) {
+    main {
+      margin: 3rem auto 0 auto; } }
+
+.btn--right {
+  margin-left: auto; }
+
+.display {
+  display: block; }
+
+.hide {
+  opacity: 0;
+  visibility: hidden; }
+
+.popup {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 400ms ease-in-out; }
 
 .icon {
   width: 100%;
@@ -46,6 +69,9 @@ main {
 .logo__menu {
   width: 3rem;
   height: 1.3rem; }
+  .logo__menu--big {
+    width: 3rem;
+    height: 3rem; }
 
 .header {
   margin: 0 auto;
@@ -61,6 +87,9 @@ main {
     .header {
       width: auto;
       margin: 5rem 1.5rem 0 1.5rem; } }
+  @media only screen and (max-width: 500px) {
+    .header {
+      margin: 3rem 1.5rem 0 1.5rem; } }
 
 @media only screen and (max-width: 600px) {
   .nav {
@@ -78,6 +107,23 @@ main {
   color: #5d5f79; }
   .nav__link:hover, .nav__link:active {
     color: #e9ab53; }
+
+.nav__side__container {
+  padding: 2.5rem 2rem 0 2rem;
+  width: 70%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #fffdfa;
+  position: fixed; }
+
+.nav__side {
+  padding-top: 5rem; }
+  .nav__side__item {
+    list-style-type: none; }
+  .nav__side__list:not(:last-child) {
+    margin-bottom: 2.5rem; }
 
 .news {
   width: 100rem;
@@ -241,12 +287,6 @@ main {
   @media only screen and (min-width: 600px) {
     .btn__menu {
       display: none; } }
-
-.hide {
-  display: none; }
-
-.display {
-  display: block; }
 
 .horizontal__line {
   margin: 3rem 0;

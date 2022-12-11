@@ -23,3 +23,28 @@
     }
   }
 }
+
+
+.nav__side__container {
+  padding: 2.5rem 2rem 0 2rem;
+  width: 70%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: $color-off-white;
+
+  position: fixed;
+}
+
+.nav__side {
+  padding-top: 5rem;
+  &__item {
+    list-style-type: none;
+  }
+  &__list {
+    &:not(:last-child) {
+      margin-bottom: 2.5rem;
+    }
+  }
+}

@@ -23,7 +23,6 @@ html {
   @media only screen and (max-width: 600px) {
     font-size: 60.5%;
   }
-
 }
 
 body {
@@ -31,6 +30,8 @@ body {
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 2rem;
+
+  position: relative;
 }
 
 main {
@@ -40,4 +41,8 @@ main {
   display: grid;
   align-content: start;
   justify-content: center;
+
+  @media only screen and (max-width: 500px) {
+    margin: 3rem auto 0 auto;
+  }
 }
