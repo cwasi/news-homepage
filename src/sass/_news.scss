@@ -2,7 +2,7 @@
   width: 100rem;
 
   display: grid;
-  grid-template-columns: 1fr min-content;
+  grid-template-columns: 1fr max-content;
   gap: 5.5rem 2.6rem;
 
   &__box {
@@ -11,12 +11,12 @@
   }
 
   &__info__box {
-    height: 18rem;
+    // height: 17rem;
 
     display: grid;
     align-self: center;
-    justify-content: space-between;
-    grid-template-columns: repeat(2, 1fr);
+    justify-content: start;
+    grid-template-columns: 1fr 31.5rem;
     gap: 4.5rem;
   }
 
@@ -35,7 +35,7 @@
   }
 
   &__item {
-    width: 35rem;
+    width: 32rem;
     padding: 2.5rem;
     color: $color-off-white;
     background-color: $color-very-dark-blue;

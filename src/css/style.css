@@ -34,6 +34,9 @@ main {
     width: 6.5rem;
     height: 4rem; }
 
+.logo__box {
+  display: flex; }
+
 .header {
   margin: 0 auto;
   margin-top: 8rem;
@@ -58,17 +61,16 @@ main {
 .news {
   width: 100rem;
   display: grid;
-  grid-template-columns: 1fr min-content;
+  grid-template-columns: 1fr max-content;
   gap: 5.5rem 2.6rem; }
   .news__box {
     display: grid;
     gap: 3rem; }
   .news__info__box {
-    height: 18rem;
     display: grid;
     align-self: center;
-    justify-content: space-between;
-    grid-template-columns: repeat(2, 1fr);
+    justify-content: start;
+    grid-template-columns: 1fr 31.5rem;
     gap: 4.5rem; }
   .news__photo {
     width: 100%;
@@ -80,7 +82,7 @@ main {
     flex-direction: column;
     justify-content: space-between; }
   .news__item {
-    width: 35rem;
+    width: 32rem;
     padding: 2.5rem;
     color: #fffdfa;
     background-color: #00001a; }
@@ -116,7 +118,7 @@ main {
     justify-content: space-between; }
 
 .heading-1 {
-  font-size: 5.5rem;
+  font-size: 5.2rem;
   font-weight: 800;
   line-height: 5.5rem; }
 
@@ -146,7 +148,7 @@ main {
 .paragraph {
   margin-top: 1rem;
   font-size: 1.4rem;
-  line-height: 2rem; }
+  line-height: 2.2rem; }
   .paragraph-b {
     margin-top: 0; }
   .paragraph__color-dark-grayish-blue {
@@ -154,9 +156,9 @@ main {
 
 .btn {
   width: max-content;
-  padding: 1.2rem 2.2rem;
+  padding: 1.5rem 2.5rem;
   font-family: "Inter", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.5rem;
