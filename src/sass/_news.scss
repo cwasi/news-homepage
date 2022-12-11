@@ -5,19 +5,34 @@
   grid-template-columns: 1fr max-content;
   gap: 5.5rem 2.6rem;
 
+  @media only screen and (max-width: 923px) {
+    width: 80rem;
+    justify-content: center;
+    grid-template-columns: 80rem;
+  }
+
+  @media only screen and (max-width: 734px) {
+    width: auto;
+    padding: 0 1.5rem;
+    grid-template-columns: 1fr;
+  }
+
   &__box {
     display: grid;
     gap: 3rem;
   }
 
   &__info__box {
-    // height: 17rem;
-
     display: grid;
     align-self: center;
     justify-content: start;
     grid-template-columns: 1fr 31.5rem;
     gap: 4.5rem;
+
+    @media only screen and (max-width: 923px) {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
   }
 
   &__photo {
@@ -32,6 +47,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    @media only screen and (max-width: 923px) {
+      gap: 2.5rem;
+    }
   }
 
   &__item {
@@ -39,6 +58,10 @@
     padding: 2.5rem;
     color: $color-off-white;
     background-color: $color-very-dark-blue;
+
+    @media only screen and (max-width: 923px) {
+      width: 100%;
+    }
   }
 
   &__title {
@@ -67,9 +90,14 @@
 
   &__blog {
     grid-column: 1 / -1;
+    gap: 3rem;
 
     display: flex;
     justify-content: space-between;
+
+    @media only screen and (max-width: 923px) {
+      flex-direction: column;
+    }
   }
   &__blog__card {
     cursor: pointer;
@@ -80,6 +108,12 @@
     justify-content: space-between;
     gap: 2rem;
 
+    @media only screen and (max-width: 923px) {
+      grid-template-columns: 10rem 1fr;
+
+      justify-content: start;
+    }
+
     &:hover &__title {
       color: $color-soft-red;
     }
@@ -89,5 +123,14 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    @media only screen and (max-width: 923px) {
+      justify-content: center;
+    }
+  }
+
+  &__blog__card__number,
+  &__blog__card__title {
+    margin-bottom: 1.5rem;
   }
 }

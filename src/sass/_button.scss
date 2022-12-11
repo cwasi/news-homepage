@@ -17,3 +17,25 @@
     background-color: $color-very-dark-blue;
   }
 }
+
+.btn__menu {
+  display: none;
+
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  align-self: center;
+
+  display: flex;
+  @media only screen and (min-width: 600px) {
+    display: none;
+  }
+}
+
+.hide {
+  display: none;
+}
+.display {
+  display: block;
+}
