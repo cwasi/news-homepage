@@ -1,0 +1,13 @@
+.attribution {
+  margin: 5rem 0 2rem 0;
+  font-size: 1.2rem;
+  text-align: center;
+
+  &__link {
+    text-decoration: none;
+    color: $color-soft-orange;
+  }
+  & p {
+    font-weight: 400;
+  }
+}
