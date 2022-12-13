@@ -24,7 +24,6 @@
   }
 }
 
-
 .nav__side__container {
   padding: 2.5rem 2rem 0 2rem;
   width: 70%;
@@ -35,6 +34,10 @@
   background-color: $color-off-white;
 
   position: fixed;
+  @media only screen and (min-width: 600px) {
+    opacity: 0;
+    visibility: hidden;
+  }
 }
 
 .nav__side {
