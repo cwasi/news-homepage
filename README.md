@@ -1,6 +1,6 @@
 # Frontend Mentor - News homepage solution
 
-This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -23,7 +23,6 @@ Your users should be able to:
 
 - See hover and focus states for all interactive elements on the page
 
-
 ### Screenshots
 
 <img src="./screenshots/Desktop-view.png">
@@ -40,8 +39,8 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: [Source code](https://github.com/cwasi/suite-landing-page)
-- Live Site URL: [Live site](https://cwasi-suite-landing-page.netlify.app/)
+- Solution URL: [Source code](https://github.com/cwasi/news-homepage)
+- Live Site URL: [Live site](https://cwasi-news-homepage-page.netlify.app/)
 
 ## My process
 
@@ -57,5 +56,6 @@ Your users should be able to:
 - run `npm start` to run the server
 
 ## Author 👦
+
 - GitHub - [@cwasi](https://github.com/cwasi)
 - Frontend Mentor - [@cwasi](https://www.frontendmentor.io/profile/cwasi)
