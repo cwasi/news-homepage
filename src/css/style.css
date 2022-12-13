@@ -193,7 +193,8 @@ main {
     font-size: 1.4rem;
     color: #c5c6ce; }
   .news__item__list:hover, .news__item__title {
-    color: #e9ab53; }
+    color: #e9ab53;
+    transition: all 300ms ease-in-out; }
   .news__blog {
     grid-column: 1 / -1;
     gap: 3rem;
@@ -214,7 +215,8 @@ main {
         grid-template-columns: 10rem 1fr;
         justify-content: start; } }
     .news__blog__card:hover .news__blog__card__title {
-      color: #f15e50; }
+      color: #f15e50;
+      transition: color 300ms ease-in-out; }
   .news__blog__card__body {
     display: flex;
     flex-direction: column;
