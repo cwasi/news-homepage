@@ -44,9 +44,7 @@
   }
 
   &__info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    @include flex-c-space-between;
 
     @media only screen and (max-width: 923px) {
       gap: 2.5rem;
@@ -93,8 +91,7 @@
     grid-column: 1 / -1;
     gap: 3rem;
 
-    display: flex;
-    justify-content: space-between;
+    @include flex-r-space-between;
 
     @media only screen and (max-width: 923px) {
       flex-direction: column;
@@ -122,9 +119,7 @@
   }
 
   &__blog__card__body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    @include flex-c-space-between;
 
     @media only screen and (max-width: 923px) {
       justify-content: center;
