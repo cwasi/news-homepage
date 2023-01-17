@@ -40,7 +40,7 @@ Your users should be able to:
 ### Links
 
 - Solution URL: [Source code](https://github.com/cwasi/news-homepage)
-- Live Site URL: [Live site](https://cwasi-news-homepage-page.netlify.app/)
+- Live Site URL: [Live site](https://cwasi-news-homepage.netlify.app/)
 
 ## My process
 
